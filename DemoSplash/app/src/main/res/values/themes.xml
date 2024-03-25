@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.DemoSplash" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <!-- SPLASH SCREEN -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_android</item>
+        <item name="postSplashScreenTheme">@style/Theme.DemoSplash</item>
+    </style>
+</resources>
